@@ -47,7 +47,7 @@ def main ( ) :
                     canvas.end_line ( )
 
                     # We find the distance
-                    mid_fing = landmark_list [ 12 ]
+                    mid_fing = landmark_list [ 11 ]
                     euclidean_dist = lambda a , b : sum ( [ (a [ i ] - b [ i ]) ** 2 for i in
                                                             range ( len ( a ) ) ] ) ** .5
                     distance = euclidean_dist ( idx_finger , mid_fing )

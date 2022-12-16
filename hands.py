@@ -49,7 +49,7 @@ class HandDetector ( ) :
 
         return landmarks
 
-    def detect_gesture (self , landmarks , threshhold=0.90 , debug=False) :
+    def detect_gesture (self , landmarks , threshhold=0.97 , debug=False) :
         """
         This function determines which "mode" we are in, signified by the
         hand-signs someone indicates when we are drawing

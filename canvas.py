@@ -102,7 +102,6 @@ class Canvas ( ) :
         Arguments:
             point: (x, y) pair representing the coordinates of the current
             index finger (assuming we are in drawing mode)
-
         """
         if len ( self.lines ) == 0 or self.currLine == None or self.lines [ self.currLine ].active == False :
             # we need to initialize a line
@@ -132,7 +131,6 @@ class Canvas ( ) :
         - frame: The image straight from camera
         Returns:
         Image with all the different lines drawn on top of it
-
         """
         # self.lines = [{"color": "BLUE",
         #               "points": [(1, 2), (5, 9), ...]},
